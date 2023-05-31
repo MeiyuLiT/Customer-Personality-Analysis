@@ -11,7 +11,7 @@ In this project, we explore 4 questions to better understand customer personalit
 ## Dataset
 We used the dataset _marketing_campaign.csv_. It contains 2240 rows and 28 columns. Each row shows the information of one particular customer and the first column represents a unique customer ID. The rest columns contain specific customer features like education, income, the amount spent on several categories of products, and whether they accepted promotions in six campaigns.
 
-## Code and some result graphs
+## Code and some Results/Graphs
 The code is divided into 5 parts: data preprocessing, exploratory analysis, statistical inference, prediction, and classification. Here is a breif description (to see details, please refer to _Report.pdf_):
 - **Data Preprocessing**: Considering the low percent of missing values (1%) and outliers (0.01%), we decide to delete them. 
 - **Exploratory Analysis**: We plot **bar plots** to see the distribution of categorical variable, **correlation heat map** to see the relationship between continuous features. In addition we perform dimension reduction on selected columns of the raw data before doing our analysis. We choose to apply **PCA** with Kaiser Criterion, and the resulting Scree plot indicates that the first nine principal components play a major role, which explains 69.36% of total variances.
